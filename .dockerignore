@@ -1,0 +1,27 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*.so
+*.env
+
+
+# Poetry virtual environments
+.venv/
+
+# Local environment files
+.env
+
+# Pytest cache
+.pytest_cache/
+
+# Pulumi state files
+*.bak
+*.iml
+*.lock
+*.backup
+*.state
+node_modules/
+.DS_Store
+
+# Local Pulumi configuration
+Pulumi.*.yaml

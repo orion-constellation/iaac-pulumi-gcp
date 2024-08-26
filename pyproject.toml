@@ -1,0 +1,30 @@
+[tool.poetry]
+name = "pulumi_gcp_config"
+version = "0.1.0"
+description = ""
+authors = ["snyata <core@synavate.tech>"]
+license = "Apache-2.0"
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+pulumi = "^3.130.0"
+python-dotenv = "1.0.1"
+google-cloud-storage = "2.18.2"
+pulumi-gcp = "^7.37.0"
+pandas = "^2.2.2"
+pyarrow = "^17.0.0"
+fastparquet = "2024.5.0"
+pulumi-docker = "4.5.5"
+pyyaml = "^6.0"
+loguru = "^0.7.2"
+gcsfs = "^2024.6.1"
+fsspec = "^2024.6.1"
+
+[tool.poetry.scripts]
+pulumi-gcp = "pulumi_gcp_module.main:main"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"

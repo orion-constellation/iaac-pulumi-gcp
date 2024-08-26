@@ -1,0 +1,5 @@
+project_name: gcp-pulumi-deploy
+region: australia-southeast2
+vpc_name: hydra-project
+subnet_name: hydra-project
+bucket_name: terrorism_data_py

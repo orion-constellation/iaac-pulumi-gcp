@@ -1,0 +1,7 @@
+name: pulumi_gcp_config
+runtime: python
+description: Pulumi IaaC
+config:
+  pulumi:tags:
+    value:
+      pulumi:template: gcp-python
